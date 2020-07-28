@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MiningReward">
+    <output-path>$PROJECT_DIR$/../server/plugins</output-path>
+    <root id="archive" name="MiningReward.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/src/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+      <element id="module-output" name="MiningReward" />
+    </root>
+  </artifact>
+</component>

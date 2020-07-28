@@ -1,0 +1,18 @@
+# Spalvos sitame faile rasomos su & zenklu: &1 &2 &3 &c &a ir pan.
+# Prie zinuciu galima prideti {NAME}, norint parasyti zaidejo iskasusio varda
+# Blocks: Pirma rasomas bloko ID, skaicius nuo kurio pradedamas chest'o gavimas (paprastiem zaidejam), poto skaicius ties kuriuo baigiamaas (paprastiem zaidejam), tada gavimas zaidejam su privilegija ir poto baigimas.
+# Lootable rasomi itemai taip pat kaip essentialsuose, cia itemai kurie gali atsirasti cheste,
+# pridetas droprate:procentas, procentas nurodo sansa gauti daikta (droprate:25 - 25% tikimybe gauti.)
+# RewardPermission - Permissionas reikalingas, kad zaidejas galetu zaisti sita loterija
+RewardPermission: miningreward.grant
+PlayerMessage: "&aJums atsirado skrynia su daiktais!"
+GlobalMessage: '&c{NAME} iskase skrynia su daiktais!'
+GlobalMessageEnabled: true
+Blocks:
+  - 56 500 1000 50 100
+  - 129 60 100 6 10
+  - 14 300 600 30 60
+Lootable:
+  - 278 1 efficiency:1 durability:1 fortune:1 droprate:25 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+  - 397:3 1 droprate:50 player:Notch
+  - 278 1
